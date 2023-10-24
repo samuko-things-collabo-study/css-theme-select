@@ -1,0 +1,40 @@
+:root {
+  --base-theme-color: white;
+  --base-text-color: black;
+}
+
+
+body {
+  margin: none;
+  padding: none;
+  background-color: var(--theme-color, var(--base-theme-color));
+  color: var(--text-color, var(--base-text-color));
+}
+
+article {
+  padding: 0px 60px;
+  text-align: justify;
+}
+
+h1,
+h2{
+  margin-top: 60px;
+}
+
+
+.btn{
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  width: 60px;
+  height: 25px;
+
+  border: 1px solid var(--text-color, var(--base-text-color));
+  color: var(--text-color, var(--base-text-color));
+}
+
+.btn:hover {
+  cursor: pointer;
+}
